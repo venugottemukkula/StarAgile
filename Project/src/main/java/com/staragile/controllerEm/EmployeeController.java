@@ -22,7 +22,9 @@ public class EmployeeController {
 		return employee;
 	}
 
-	/*
-	 * @GetMapping("/emp") public String getEmployee() { return "Hello Employee"; }
-	 */
+	@GetMapping("/emp")
+	public String getEmployee() {
+		return "Hello Employee";
+	}
+
 }
