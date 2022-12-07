@@ -24,7 +24,7 @@ public class EmployeeController {
 
 	@GetMapping("/emp")
 	public String getEmployee() {
-		return "Hello Employee";
+		return "Hello Employee:"+"VENU";
 	}
 
 }
